@@ -1,14 +1,5 @@
----
-name: Feature request
-about: Suggest a defensive enhancement
-title: "[Feature] "
-labels: enhancement
----
-
-## Goal
+## Proposed defensive feature
 
 ## Authorized use case
 
-## Proposed design
-
-## Tests and security impact
+## Security and privacy considerations

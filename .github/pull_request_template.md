@@ -1,11 +1,10 @@
-## Summary
+## Proposed change
 
-## Threat model / authorized use
+## Authorized use case
 
-## Tests performed
+## Security and privacy impact
 
-## Security and privacy review
+## Tests
 
-- [ ] No secrets or real customer records committed
-- [ ] No unauthorized surveillance or remote access added
-- [ ] Documentation updated
+- [ ] Unit tests pass
+- [ ] No sensitive data or credentials

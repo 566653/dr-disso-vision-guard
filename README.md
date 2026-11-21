@@ -45,3 +45,6 @@ MIT © 2026 DR Disso.
 ## Release 0.2 — collaboration and reliability
 
 Includes strict rule validation, structured versioned JSON reports, risk summaries, five new policy tests, issue/PR templates, contribution guidelines, weekly Dependabot proposals and an operations guide. See [operations](docs/OPERATIONS.md). **This remains an offline prototype; not a deployed sensor network or trained AI model.**
+ 
+## Collaboration and maintenance
+See [contribution instructions](CONTRIBUTING.md), [operations](docs/OPERATIONS.md) and the GitHub issue and pull request templates. Weekly Dependabot update proposals are enabled. External collaborators should fork and submit pull requests.
