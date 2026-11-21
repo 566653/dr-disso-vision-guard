@@ -41,3 +41,7 @@ Python 3 for the analyzer; JavaScript, HTML and CSS for the local browser interf
 ## License
 
 MIT © 2026 DR Disso.
+
+## Release 0.2 — collaboration and reliability
+
+Includes strict rule validation, structured versioned JSON reports, risk summaries, five new policy tests, issue/PR templates, contribution guidelines, weekly Dependabot proposals and an operations guide. See [operations](docs/OPERATIONS.md). **This remains an offline prototype; not a deployed sensor network or trained AI model.**

@@ -1,5 +1,6 @@
 """Explainable, local-only risk scoring on authorized JSON inputs."""
 import argparse
+from policy import validate_rules, export_report
 import json
 from pathlib import Path
 MAX_BYTES=1_000_000
@@ -28,8 +29,8 @@ def main():
     parser.add_argument("--rules",default="rules.json")
     parser.add_argument("--output")
     args=parser.parse_args()
-    result=assess(read(args.input),read(args.rules))
+    result=assess(read(args.input),validate_rules(read(args.rules)))
     text=json.dumps(result,indent=2)+"\n"
-    if args.output: Path(args.output).write_text(text,encoding="utf-8")
+    if args.output: export_report(result,args.output)
     else: print(text,end="")
 if __name__=="__main__":main()
