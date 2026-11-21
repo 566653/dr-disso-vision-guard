@@ -48,3 +48,7 @@ Includes strict rule validation, structured versioned JSON reports, risk summari
  
 ## Collaboration and maintenance
 See [contribution instructions](CONTRIBUTING.md), [operations](docs/OPERATIONS.md) and the GitHub issue and pull request templates. Weekly Dependabot update proposals are enabled. External collaborators should fork and submit pull requests.
+
+## Discover / Découvrir
+
+[English & French project introduction / Présentation bilingue](DISCOVER.md). Contributions welcome through reviewed pull requests.
