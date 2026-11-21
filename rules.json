@@ -1,0 +1,30 @@
+[
+  {
+    "field": "camera_online",
+    "op": "eq",
+    "value": false,
+    "severity": "high",
+    "message": "Camera offline"
+  },
+  {
+    "field": "firmware_age_days",
+    "op": "gt",
+    "value": 365,
+    "severity": "medium",
+    "message": "Firmware review required"
+  },
+  {
+    "field": "tls_enabled",
+    "op": "eq",
+    "value": false,
+    "severity": "high",
+    "message": "Encrypted transport not enabled"
+  },
+  {
+    "field": "recording_enabled",
+    "op": "eq",
+    "value": false,
+    "severity": "medium",
+    "message": "Recording disabled"
+  }
+]
